@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+}
+
+/* Auth Page specific styling background override */
+.auth-body {
+  background-color: darkolivegreen;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 900px;
+  margin: 30px auto;
+  padding: 30px;
+}
+
+.auth-container {
+  width: 350px;
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.header {
+  background: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px lightgray;
+}
+
+input, select {
+  padding: 8px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.auth-container input {
+  width: 95%;
+  display: block;
+}
+
+button {
+  padding: 8px 15px;
+  background: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:disabled {
+  background: grey;
+  cursor: default;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background: #f0f0f0;
+}
+
+.noboarder, .noboarder tr, .noboarder td {
+  border: none;
+}
+
+.error {
+  color: red;
+  display: block;
+  margin: 5px 0;
+}
+
+.chart-container {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.chart-box {
+  width: 300px;
+  height: 300px;
+}
