@@ -7,7 +7,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '');
 
   // Choose your local backend target fallback (e.g., http://localhost:8080)
-  const backendTarget = env.VITE_API_URL || 'http://localhost:8080';
+  const backendTarget = env.VITE_API_BASE_URL || 'http://localhost:8080';
 
   return {
     plugins: [react()],
